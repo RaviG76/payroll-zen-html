@@ -45,7 +45,7 @@
     font-family: "Lato","Helvetica Neue","Helvetica",Arial,sans-serif;
     font-size: 0.75em;
     font-weight: 700;
-    letter-spacing: 0.164em;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
 }
 
@@ -65,7 +65,6 @@
     font-weight: 300;
     letter-spacing: 0.03em;
     margin-bottom: 1em;
-    font-family: 'Lato-Light';
 }
 
 .dotted-hr-light {
@@ -89,20 +88,20 @@
 }
 
 .tour-next-link span {
-    font-family: 'latoregular';
-    font-size: 0.80em;
-    font-weight: bold;
-    letter-spacing: 0.04em;
-    margin-right: 16px;
+    font-family: "Lato","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    margin-right: 10px;
     text-transform: uppercase;
 }
 
 .tour-next-link a {
     text-shadow: none;
     color: #fbe334;
-    font-family: 'Lato-Light';
-    letter-spacing: 0.11em;
-    font-size: 0.75em;
+    font-family: "Lato","Helvetica Neue","Helvetica",Arial,sans-serif;
+    letter-spacing: 0.17em;
+    font-size: 0.75em !important;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -168,7 +167,7 @@
 }
 
 .caret {
-    margin-top: -1px;
+    margin-top: 0px;
 }
 
 .auto-sign {
@@ -247,7 +246,7 @@
 
 #bottom-signup-cta .container {
     padding-bottom: 78px;
-    padding-top: 39px;
+    padding-top: 40px;
 }
 
 
@@ -334,18 +333,6 @@
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-}
-
-a.clean {
-    text-decoration: none;
-    color: #3d9936;
-    transition: color 125ms ease-in-out 0s;
-     font-size: 15.5px;
-     font-weight: 500;
-}
-
-a.clean:hover {
-    color: #50cc47;
 }
 
 @keyframes rotating {
@@ -599,15 +586,15 @@ a.clean:hover {
 #footer .container {
     border: medium none;
     padding-bottom: 80px;
-    padding-top: 67px;
+    padding-top: 70px;
 }
 
 #footer h4 {
     color: #a5a5a0;
-    font-family: 'Lato-Light';
-    font-size: 0.84em;
+    font-family: "Lato","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-size: 0.875em;
     font-weight: 600;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.15em !important;
     margin-bottom: 8px;
     margin-top: 15px;
     text-transform: uppercase;
@@ -619,10 +606,8 @@ a.clean:hover {
     background-repeat: repeat-x;
     background-size: 6px auto;
     list-style: outside none none;
-    padding: 17px 0;
-    position: relative;
-    top: 2px;
-}
+    padding: 15px 0;
+ }
 
 #footer ul.footer-links li {
     margin-bottom: 3px;
@@ -631,9 +616,6 @@ a.clean:hover {
 
 #footer ul.footer-links li a {
     color: #5c5947;
-    font-family: "latoregular";
-    font-size: 0.85em;
-    letter-spacing: 0.02em;
     padding: 0;
     text-decoration: none;
     transition: color 125ms ease-in-out 0s;
@@ -644,7 +626,7 @@ a.clean:hover {
 }
 
 #footer ul.footer-links li a .careers-text {
-    margin-right: 4px;
+    margin-right: 5px;
 }
 
 #footer ul.footer-links li a .hiring-tag {
@@ -653,7 +635,7 @@ a.clean:hover {
     color: #3d9936;
     display: inline-block;
     font-family: "Lato","Helvetica Neue","Helvetica",Arial,sans-serif;
-    font-size: 0.68em;
+    font-size: 0.65em;
     font-weight: 700;
     letter-spacing: 0.15em;
     line-height: 1em;
@@ -686,8 +668,7 @@ a.clean:hover {
     color: #a5a5a0;
     font-size: 1.75em;
     font-weight: 400;
-    padding-top: 3px;
-    font-family: 'latoregular';
+    padding-top: 0px;
 }
 
 /*sub footer start here*/
@@ -789,14 +770,14 @@ a.clean:hover {
 
 
 #sub-footer ul.sub-footer-links li {
-    padding: 25px 0;
+    padding: 25px 0 25px;
     display: inline-block;
 }
 
 #sub-footer ul.sub-footer-links li a {
     color: #d7d7d4;
     font-family: "Lato","Helvetica Neue","Helvetica",Arial,sans-serif;
-    font-size: 0.9em;
+    font-size: 0.875em;
     font-weight: 700;
     letter-spacing: 0.15em;
     text-decoration: none;
@@ -811,7 +792,7 @@ a.clean:hover {
 
 .hidden-part {
     list-style: outside url("../img/bullet-caret-green-73efdb82e8a850926628b1aaf1de1687.png") disc;
-    padding-left: 0px;
+    padding-left: 2px;
 }
 
 #tour-autopilot .feature-content p {
@@ -939,14 +920,14 @@ a.clean:hover {
     font-size: 0.75em;
     font-weight: 700;
     letter-spacing: 0.15em;
-     margin-top: 12px;
+     margin-top: 10px;
     text-transform: uppercase;
 }
 
 #tour-employees .feature-content h1 {
     font-size: 3.09em;
     line-height: 1.35em;
-    margin-top: 27px;
+    margin-top: 25px;
     font-family: 'Raleway-Light';
     letter-spacing: 0.024em;
 }
@@ -957,7 +938,6 @@ a.clean:hover {
     line-height: 1.45em;
     font-weight: 300;
     letter-spacing: 0.03em;
-    font-family: 'Lato-Light';
 }
 
 
@@ -1015,8 +995,8 @@ section.first-section {
 
 #intro h1 {
     font-size: 2.618em;
+    letter-spacing: 0.024em;
     margin-bottom: 15px;
-    font-family: 'Lato-Light';
 }
 
 .text-large {
@@ -1025,11 +1005,9 @@ section.first-section {
 .text-large, .subheader {
     font-size: 1.25em !important;
     line-height: 1.55em !important;
-    font-family: 'Lato-Light';
+    font-family: "Lato","Helvetica Neue","Helvetica",Arial,sans-serif;
 }
-.text-large, .subheader {
-    
-}
+
 
 #feature-overview #feature-categories .container {
     padding-top: 30px;
@@ -1072,8 +1050,8 @@ section.first-section {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    font-family: 'Lato-Light';
-    font-size: 13px;
+    font-family: "Lato","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-size: 0.875em;
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -1197,8 +1175,8 @@ section.first-section {
     top: 50%;
     transform: translateY(-50%);
     transition: all 250ms ease-in-out 0s;
-    font-family: 'Lato-Light';
-    font-size: 14px;
+    font-family: "Lato","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-size: 0.875em;
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -1248,20 +1226,20 @@ section.first-section {
     color: rgba(255, 255, 255, 0.75);
     margin-bottom: 25px;
     text-shadow: none;
-    font-family: 'Lato-Light';
+    font-family: "Lato","Helvetica Neue","Helvetica",Arial,sans-serif;
     font-size: 0.75em;
     font-weight: 700;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 #tour-payday .feature-content h1 {
     line-height: 1.35em;
     margin-top: 0;
-    font-size: 3.157em;
-    font-family: 'Raleway-Light';
-    margin-top: 27px;
+    font-size: 3.09em;
+    font-family: "Raleway","Lato","Helvetica Neue","Helvetica",Arial,sans-serif;
+    margin-top: 25px;
 }
 
 #tour-payday .feature-content p {
@@ -1269,7 +1247,6 @@ section.first-section {
     line-height: 1.45em;
     font-weight: 300;
     letter-spacing: 0.03em;
-    font-family: 'Lato-Light';
 }
 
 #tour-payday .tour-img {
@@ -1325,10 +1302,9 @@ section.first-section {
 }
 
 #tour-support h5 {
-    font-family: 'Lato-Light';
     font-size: 0.75em;
     font-weight: 700;
-    letter-spacing: 0.075em;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -1360,7 +1336,6 @@ section.first-section {
     font-size: 1.382em;
     line-height: 1.45em;
     font-weight: 300;
-    font-family: 'Lato-Light';
     margin-bottom: 1.15em;
     margin-top: 0px;
 }
@@ -1381,16 +1356,14 @@ section.first-section {
     border: medium none;
     border-radius: 5px;
     color: #fff;
+    font-size: 0.618em;
     font-weight: 700;
-    letter-spacing: 0.12em;
-    margin-bottom: 10px !important;
-    padding: 14px 44px;
+    letter-spacing: 0.18em;
+    margin-bottom: 10px;
+    padding: 14px 45px 13px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.618em;
-    margin-top: 2px;
-    font-family: 'Lato-Light';
-    background: linear-gradient(to bottom, #49ad41 0%, #3d9936 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(to bottom, #49ad41 0%, #3d9936 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 
 .btn-part:hover {
@@ -1411,10 +1384,10 @@ section.first-section {
 #tour-support .tour-next-link a {
     color: #3d9936;
     font-weight: bold !important;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.17em;
     position: relative;
     text-shadow: none;
-    top: 10px;
+    top: 11px;
 }
 
 
